@@ -1,0 +1,27 @@
+<?php
+define("95495036eb814b2fb6b1bc61dee0884c5570b46c0b1166c3cd7c6b24922fb3ce", "");
+
+require_once("init.php");
+?>
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <?php
+    if (isset($title)) { ?>
+        <title><?php echo $title ?> - Crypto Messenger</title>
+    <?php } else { ?>
+        <title>Crypto Messenger</title>
+    <?php } ?>
+    <link rel="icon" type="image/x-icon" href="https://cdn0.iconfinder.com/data/icons/ui-colorful-beast-1/32/UI-49-512.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/iziToast.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
